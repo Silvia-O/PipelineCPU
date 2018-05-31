@@ -61,6 +61,7 @@ module mips(
   wire[1:0] ForwardB;
   wire MemRead_id;
   wire MemRead_ex;
+  wire MemRead_mem;
   wire MemWrite_id;
   wire MemWrite_ex;
   wire MemWrite_mem;
